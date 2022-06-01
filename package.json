@@ -13,13 +13,13 @@
     "stream",
     "streams"
   ],
-  "homepage": "https://github.com/stgdp/gulp-archive",
+  "homepage": "https://github.com/stgdp/gulp-archiver",
   "bugs": {
-    "url": "https://github.com/stgdp/gulp-archive/issues"
+    "url": "https://github.com/stgdp/gulp-archiver/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stgdp/gulp-archive.git"
+    "url": "https://github.com/stgdp/gulp-archiver.git"
   },
   "license": "MIT",
   "author": {
