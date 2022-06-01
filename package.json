@@ -1,0 +1,57 @@
+{
+  "name": "gulp-archiver",
+  "version": "3.1.0",
+  "description": "Create archives from files",
+  "keywords": [
+    "gulpplugin",
+    "archive",
+    "archiver",
+    "compress",
+    "compression",
+    "file",
+    "files",
+    "stream",
+    "streams"
+  ],
+  "homepage": "https://github.com/stgdp/gulp-archive",
+  "bugs": {
+    "url": "https://github.com/stgdp/gulp-archive/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stgdp/gulp-archive.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Andrew Palfrey",
+    "email": "apalfrey@apalfrey.me",
+    "url": "https://apalfrey.me"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "npm run lint && mocha"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "through2": "^4.0.2",
+    "vinyl": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-xo": "^0.41.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "gulp": "^4.0.2",
+    "gulp-gzip": "^1.4.2",
+    "mocha": "^10.0.0",
+    "rimraf": "^3.0.2",
+    "tar-fs": "^2.1.1",
+    "vinyl-fs": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
